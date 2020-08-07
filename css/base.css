@@ -17,9 +17,28 @@ body {
 	--color-link-hover: #000;
 	color: var(--color-text);
 	background-color: var(--color-bg);
-	font-family: moderno-fb, serif;
+	font-family: rigatoni, serif;
+	/*font-family: moderno-fb, serif;*/
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+a{
+	color: #f0b579 !important;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	font-family: soleil, Futura, "Trebuchet MS", Arial, sans-serif;
+	font-weight: 200;
+	font-size: 0.5em;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 10px;
 }
 
 /* Page Loader */
@@ -62,6 +81,67 @@ a {
 	text-decoration: none;
 	color: var(--color-link);
 	outline: none;
+}
+
+.intro-p{
+	opacity: 0.8;
+	padding: 60px 0 30px;
+	width: 70%;
+	font-weight: 200;
+	font-size: 0.7em;
+	font-family: soleil, Futura, "Trebuchet MS", Arial, sans-serif;
+	margin: 0 auto;
+	line-height: 20px;
+}
+
+.poem{
+	margin: 50px 50px;
+	text-align: left;
+	font-size: 0.9em;
+	line-height: 24px;
+    letter-spacing: 0.2px;
+    font-style: italic;
+}
+
+.poem-right{
+	margin: 50px 50px;
+	text-align: right;
+	font-size: 0.9em;
+	line-height: 24px;
+    letter-spacing: 0.2px;
+    font-style: italic;
+}
+
+.author{
+	font-family: soleil, Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 0.8em;
+	text-align: left;
+	display: block;
+	letter-spacing: -0.2px;
+	margin-top: 50px;
+	margin-bottom: 2px;
+	font-weight: 200;
+	font-style: normal;
+}
+
+.reference{
+	font-size: 0.4em;
+	font-family: soleil, Futura, "Trebuchet MS", Arial, sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin: 0;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.photo-foot{
+	font-family: soleil, Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 0.7em;
+	padding-top: 1.5vw;
+}
+
+video{
+	width: 93%;
 }
 
 a:hover,
@@ -117,7 +197,8 @@ a:focus {
 }
 
 .title {
-	font-family: paralucent, sans-serif;
+	/*font-family: paralucent, sans-serif;*/
+	font-family: rigatoni, serif;
 	font-weight: 700;
 }
 
@@ -143,8 +224,11 @@ canvas {
 }
 
 .header__title {
-	font-family: paralucent, sans-serif;
-	font-size: 2rem;
+	font-family: rigatoni, serif;
+	font-size: 4rem;
+	font-weight: 200;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .info {
@@ -200,7 +284,7 @@ canvas {
 
 /*dos*/
 .dos {
-	margin: 100px 50px;
+	margin: 0px 50px;
 	position: relative;
 }
 
@@ -243,17 +327,18 @@ canvas {
 	top: 100%;
 	transform: rotate(-90deg);
 	transform-origin: 0 0;
-
 }
 
 .meta__subtitle {
-	font-size: 1.2em;
+	font-size: 0.5em;
 	white-space: nowrap;
+	letter-spacing: 7px;
 }
 
 .meta__title {
 	font-size: 2.5em;
 	white-space: nowrap;
+		font-family: rigatoni, serif;
 }
 
 /*tres*/
@@ -333,8 +418,12 @@ canvas {
 	padding-bottom: 30vh;
 }
 
+.last p{
+	text-align: left;
+}
+
 .last__image {
-	max-width: 480px;
+	max-width: 1080px;
 	margin: 0 auto;
 }
 
