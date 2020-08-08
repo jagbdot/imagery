@@ -41,7 +41,7 @@ h3{
 	margin-bottom: 0px;
 	text-align: center;
 	text-transform: uppercase;
-	letter-spacing: 23px;
+	letter-spacing: 10px;
 }
 
 /* Page Loader */
@@ -87,8 +87,8 @@ a {
 }
 
 .intro-p{
-	opacity: 0.8;
-	padding: 60px 0 30px;
+	opacity: 0.7;
+	padding: 30px 0 30px;
 	width: 50%;
 	font-weight: 200;
 	font-size: 0.6em;
@@ -98,16 +98,16 @@ a {
 }
 
 .poem{
-	margin: 50px 50px;
+	margin: 60px 80px;
 	text-align: left;
 	font-size: 0.8em;
-	line-height: 25px;
+	line-height: 26px;
     letter-spacing: 0.2px;
-    font-style: italic;
+    /*font-style: italic;*/
 }
 
 .poem-right{
-	margin: 50px 50px;
+	margin: 40px 80px;
 	text-align: right;
 	font-size: 0.9em;
 	line-height: 24px;
@@ -141,7 +141,8 @@ a {
 	font-family: soleil, Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 0.6em;
 	padding-top: 1.2vw;
-	opacity: 0.5;
+	opacity: 0.3;
+	letter-spacing: 0.2px;
 }
 
 video{
@@ -225,29 +226,33 @@ canvas {
 
 .fullpage{
 	width: 100%;
-	height: 20vh;
+	height: 22vh;
 	position: relative;
 	top: 0;
 	overflow: hidden;
+-webkit-box-shadow: inset 0px -6px 5px -2px rgba(0,0,0,0.45);
+-moz-box-shadow: inset 0px -6px 5px -2px rgba(0,0,0,0.45);
+box-shadow: inset 0px -6px 5px -2px rgba(0,0,0,0.45);
 }
 
 .fullpage img{
 	overflow: hidden;
 	width: 100%;
-	bottom: -200px;
+	bottom: -500px;
 	position: absolute;
 }
 
 .header {
-	padding: 3rem;
+	padding: 3rem 3rem 0;
 }
 
 .header__title {
 	font-family: rigatoni, serif;
-	font-size: 9rem;
+	font-size: 8.8rem;
 	font-weight: 200;
 	text-align: center;
-	margin-bottom: 20px;
+	letter-spacing: -2px;
+	margin-bottom: 16px;
 }
 
 .info {
@@ -269,7 +274,7 @@ canvas {
 .intro {
 	text-align: right;
 	font-size: 18px;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .intro__title {
@@ -545,6 +550,55 @@ canvas {
 		margin: 0 50px;
 	}
 
+	.fullpage img{
+		bottom: -25vw;
+	}
+
+	.header__title {
+		font-family: rigatoni, serif;
+		font-size: 26vw;
+		font-weight: 200;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	section .header{
+		padding: 0;
+	}
+
+	.intro-p{
+		opacity: 0.8;
+		padding: 60px 0 30px;
+		width: 90%;
+		font-weight: 200;
+		font-size: 0.6em;
+		line-height: 20px;
+	}
+
+	.poem{
+		text-align: left;
+		font-size: 0.8em;
+		margin: 50px 0px;
+		line-height: 25px;
+	    letter-spacing: 0.2px;
+	}
+
+	.intro{
+		padding: 0;
+	}
+
+	h2{
+		font-size: 7vw;
+	}
+
+	h3{
+		letter-spacing: 2.5vw;
+	}
+
+	.meta__subtitle {
+	display: none;
+	}
+
 	.last {
 		margin: 0 auto;
 	}
@@ -612,7 +666,7 @@ canvas {
 		width: 8em;
 		left: -8em;
 		transform-origin: 100% 0;
-		top: 4em;
+		top: 18em;
 		font-size: 0.5rem;
 	}
 
