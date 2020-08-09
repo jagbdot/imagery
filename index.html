@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="https://use.typekit.net/jsq0suq.css">
 	<link rel="stylesheet" href="https://use.typekit.net/cze1cgq.css">
 	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	<script>
@@ -49,12 +51,11 @@
 					<h1 class="codrops-header__title"></h1>
 				</header>
 				<p class="info"><a class="github" href="https://watch.anaykachifilm.com/" title="Watch the Trailer"><img src='img/camera.svg' class="icon cienema"></a></p>
-
 			</div>
 		<!-- begin scrollable -->
 		<div data-scroll>
 			<div class='fullpage'>
-				<img src="img/picture49.jpg" alt="Some image">
+				<img src="img/picture49-2.jpg" alt="Some image">
 			</div>
 			<header class="header">
 				<h3>Historic Context</h3>
@@ -70,7 +71,7 @@
 					<!--<video class='some image' playsinline autoplay muted loop="controls">
 					    <source src="img/catching.webm" type="video/webm"  />
 					</video>-->
-					<img src="img/picture40.jpg" alt="Some image">
+					<img class='img-reveal' src="img/picture40.jpg" alt="Some image">
 						<!--<img src="img/picture2.jpg" alt="Some image">-->
 						<p class='poem'>
 							[...] Ausente! La mañana en que me vaya<br>
@@ -125,7 +126,6 @@
 					<div class="dos__background-image">
 						<img src="img/picture23.jpg" class="js-image" alt="Some image">
 						<p class='photo-foot'>1. Cocina de Marasal, 2018. | 2. Cocina de Marasal, 2018.</p>
-
 					</div>
 					<div class="dos__text">
 				
@@ -388,7 +388,6 @@
 				<div class="tres__foreground">
 					<div class="tres__foreground-image">
 						<img src="img/picture46.jpg" class="js-image" alt="Some image">
-
 					</div>
 					<div class="meta">
 						<h3 class="meta__subtitle">– Following the right</h3>
@@ -530,10 +529,79 @@
 					<p class='photo-foot'>Cocina de Marasal, 2018.</p>
 				</div>
 			</section>
+			<h4>Bibiography</h4>
+			<section class="half-1">
+						<p class='bibliography'>
+							[<a href="#">1.</a>] Vengo a verte pasar todos los días,<br>
+							vaporcito encantado siempre lejos…<br>
+							Tus ojos son dos rubios capitanes;<br>
+							tu labio es un brevísimo pañuelo<br>
+							rojo que ondea ¡en un adiós de sangre!
+						</p>
+						<p class='bibliography'>
+							[<a href="#">2.</a>] Vengo a verte pasar todos los días,<br>
+							vaporcito encantado siempre lejos…<br>
+							Tus ojos son dos rubios capitanes;<br>
+							tu labio es un brevísimo pañuelo<br>
+							rojo que ondea ¡en un adiós de sangre!
+						</p>
+						<p class='bibliography'>
+							[<a href="#">3.</a>] Vengo a verte pasar todos los días,<br>
+							vaporcito encantado siempre lejos…<br>
+							Tus ojos son dos rubios capitanes;<br>
+							tu labio es un brevísimo pañuelo<br>
+							rojo que ondea ¡en un adiós de sangre!
+						</p>
+						<p class='bibliography'>
+							[<a href="#">3.</a>] Vengo a verte pasar todos los días,<br>
+							vaporcito encantado siempre lejos…<br>
+							Tus ojos son dos rubios capitanes;<br>
+							tu labio es un brevísimo pañuelo<br>
+							rojo que ondea ¡en un adiós de sangre!
+						</p>
+			</section>
+			<section class="half-2">
+						<p class='bibliography'>
+							[<a href="#">1.</a>] Vengo a verte pasar todos los días,<br>
+							vaporcito encantado siempre lejos…<br>
+							Tus ojos son dos rubios capitanes;<br>
+							tu labio es un brevísimo pañuelo<br>
+							rojo que ondea ¡en un adiós de sangre!
+						</p>
+						<p class='bibliography'>
+							[<a href="#">2.</a>] Vengo a verte pasar todos los días,<br>
+							vaporcito encantado siempre lejos…<br>
+							Tus ojos son dos rubios capitanes;<br>
+							tu labio es un brevísimo pañuelo<br>
+							rojo que ondea ¡en un adiós de sangre!
+						</p>
+						<p class='bibliography'>
+							[<a href="#">3.</a>] Vengo a verte pasar todos los días,<br>
+							vaporcito encantado siempre lejos…<br>
+							Tus ojos son dos rubios capitanes;<br>
+							tu labio es un brevísimo pañuelo<br>
+							rojo que ondea ¡en un adiós de sangre!
+						</p>
+						<p class='bibliography'>
+							[<a href="#">3.</a>] Vengo a verte pasar todos los días,<br>
+							vaporcito encantado siempre lejos…<br>
+							Tus ojos son dos rubios capitanes;<br>
+							tu labio es un brevísimo pañuelo<br>
+							rojo que ondea ¡en un adiós de sangre!
+						</p>
+			</section>
 		<!-- end scrollable -->
 	</main>
 	<div id="container"></div>
 	<script src="js/app.js"></script>
+		<script>
+			ScrollReveal().reveal('.fullpage', { delay: 900 });
+			ScrollReveal().reveal('.header__title', { delay: 900 });
+			ScrollReveal().reveal('.intro-p', { delay: 800, reset: true });
+			ScrollReveal().reveal('.header__title', { easing: 'ease-in-out' }, { delay: 800, reset: true });
+			ScrollReveal().reveal('.img-reveal', { delay: 800, reset: true }, { easing: 'ease-in-out' });
+			ScrollReveal().reveal('.poem', { delay: 800, reset: true }, { easing: 'ease-in-out' });
+		</script>
 </body>
 
 </html>
